@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailLaguAnakActivity">
+
+    <ImageView
+        android:id="@+id/img_laguank"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvLaguanakNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/img_laguank"
+        android:padding="18dp"
+        android:text="@string/laguanak_nama"
+        />
+
+    <TextView
+        android:id="@+id/tvLaguanakDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLaguanakNama"
+        android:text="@string/detail"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="18dp"
+        android:justificationMode="inter_word"
+        />
+
+
+
+</RelativeLayout>
